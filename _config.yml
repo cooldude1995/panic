@@ -1,0 +1,9 @@
+name: "new_web"
+description: "the_world_is_good"
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty

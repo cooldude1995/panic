@@ -1,0 +1,16 @@
+---
+layout: default
+title: INDIAN NAVY MAIN PAGE
+---
+<nav class"fitwidth" role="navigation">
+<ul>
+<li><img src="/data/img/icon-coda.png" class="img-responsive img_s"></li>
+<li><img src="/data/img/icon-dietcoda.png" class="img-responsive img_s"></li>
+<li><img src="/data/img/icon-prompt2.png" class="img-responsive img_s"></li>
+<br>
+<li><img src="/data/img/icon-statusboard.png" class="img-responsive img_s"></li>
+<li><img src="/data/img/icon-transmit.png" class="img-responsive img_s"></li>
+<li><img src="/data/img/icon-transmit-ios.png" class="img-responsive img_s"></li>
+</ul>
+</nav>
+........
