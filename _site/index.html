@@ -7,54 +7,9 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<style>
-body{
-background:#888888;
-}
-div {
-display: block;
-width: 100%;
-}
-nav {
-margin: 0px 174.5px;
-height: 478px;
-width: 1000px;
-padding-top: 0px;
-text-align: center;
-z-index: -10;
-display: block;
-}
-.fitwidth{
+  <link rel="stylesheet" type="text/css" href="/data/css/css1.css">
+  <script src="/data/js/myScript.js"></script>
 
-width: 1000px;
-margin: 0 auto;
-}
-nav ul li {
-width: 234px;
-height: 234px;
-display: inline-block;
-position: relative;
-}
-ul{
-display: block;
-width: 1000px;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
--webkit-padding-start: 40px;
-list-style-type: disc;
-}
-.ims_s{
-    -webkit-transition: -webkit-transform 5s; /* For Safari 3.1 to 6.0 */
-    transition: transform 5s;
-}
-.img_s:hover{
- -ms-transform: scale(1.1,1.1) rotate(360deg); /* IE 9 */
-    -webkit-transform: scale(1.1,1.1) rotate(360deg); /* Chrome, Safari, Opera */
-    transform: scale(1.1,1.1) rotate(360deg);
-}
-</style>
 </head>
 <body>
 
@@ -62,18 +17,18 @@ list-style-type: disc;
 <p><nav class"fitwidth" role="navigation"></p>
 
 <ul>
-<li><img src="/panic/data/img/icon-coda.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-dietcoda.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-prompt2.png" class="img-responsive img_s" alt="panic"></li>
+<li><div id="pop1" class="popover" align="center">
+    Your pop-over content will go in here!!!</div><img src="/data/img/icon-coda.png" class="img-responsive img_s" alt="panic" onmouseover="showPopOver('pop1')" onmouseout="closePopOver('pop1')"></li>
+<li><img src="/data/img/icon-dietcoda.png" class="img-responsive img_s" alt="panic"></li>
+<li><img src="/data/img/icon-prompt2.png" class="img-responsive img_s" alt="panic"></li>
 <br>
-<li><img src="/panic/data/img/icon-statusboard.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-transmit.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-transmit-ios.png" class="img-responsive img_s" alt="panic"></li>
+<li><img src="/data/img/icon-statusboard.png" class="img-responsive img_s" alt="panic"></li>
+<li><img src="/data/img/icon-transmit.png" class="img-responsive img_s" alt="panic"></li>
+<li><img src="/data/img/icon-transmit-ios.png" class="img-responsive img_s" alt="panic"></li> 
 </ul>
 
 
-<p></nav>
-........</p>
+<p></nav></p>
 
 </div>
 </body>
