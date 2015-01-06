@@ -12,7 +12,6 @@ title: PANIC
 your <em>title</em> will go here</h2></div>
 <br>
 <br><br>
-<div class="row">
 {%include navbar.html%}
-</div>
+
 
