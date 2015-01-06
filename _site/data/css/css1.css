@@ -103,4 +103,12 @@ display: block;
 }
 .container-fluid{
 padding: 0px;
+margin: 0px;
 )
+div#arrows {
+float: left;
+clear: both;
+width: 100%;
+min-width: 1000px;
+height: 373px;
+}

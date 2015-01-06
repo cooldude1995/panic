@@ -16,6 +16,11 @@ your <em>title</em> will go here</h2>
 <br>
 <br><br>
 {%include navbar.html%}
+<div id="arrows">
+<img class="img-responsive" src="/panic/data/img/footer.png" style="display: block;
+    margin-left: auto;
+    margin-right: auto; ">
+</div>
 <section style="background:#888888;margin:0;">
 <div class="fitwidth">
 <h2 style="text-align:center;">
