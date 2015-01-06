@@ -76,3 +76,31 @@ em {
 font-style: normal;
 color: #fc4349;
 }
+#footerLinks{
+margin: 30px auto 0 auto;
+width: 580px;
+padding-left: 20px;
+font: 24px/46px "Chrono Regular";
+color: #ddd;
+text-shadow: 0px 1px 0px rgba(0,0,0,.25);
+list-style-type: none;
+}
+#footerLinks ul li {
+display: block;
+background-position: left center;
+background-repeat: no-repeat;
+padding-left: 44px;
+}
+section{
+float: left;
+width: 100%;
+min-width: 1000px;
+padding-top: 30px;
+margin: 0;
+padding: 0;
+outline: none;
+display: block;
+}
+.container-fluid{
+padding: 0px;
+)

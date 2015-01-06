@@ -3,14 +3,29 @@ layout: default
 title: PANIC
 ---
 
+<div class="fitwidth">
 <img class="img-responsive" src="/panic/data/img/logo.png" style="display: block;
     margin-left: auto;
-    margin-right: auto ">
+    margin-right: auto; ">
+</div>
 <br>
+<div class="fitwidth">
 <h2 class="lead" style="text-align: center;color: #544087;font: 48px/48px Chrono Light;letter-spacing: -1px;">
 your <em>title</em> will go here</h2>
+</div>
 <br>
 <br><br>
 {%include navbar.html%}
-
-
+<section style="background:#888888;margin:0;">
+<div class="fitwidth">
+<h2 style="text-align:center;">
+links</h2>
+<ul id="footerLinks">
+<li ><a href="#">link 1</a></li>
+<li ><a href="#">link 2</a></li>
+<li ><a href="#">link 3</a></li>
+<li ><a href="#">link 4</a></li>
+<li ><a href="#">link 5</a></li>
+</ul>
+</div>
+<section>
