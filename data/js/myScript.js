@@ -1,14 +1,13 @@
 // SHOW POP-OVER
-function showPopOver(divID) {
-// SET THE DIV POSITION
+function showHover(divID) {
 
 	// SHOW THE DIV
-	document.getElementById(divID).style.display= "block";
+	document.getElementById(divID).style.transform= "scale(1.1,1.1)";
 }
 
 // CLOSE POP-OVER
-function closePopOver(divID) {
+function closeHover(divID) {
 
 	// HIDE THE DIV
-	document.getElementById(divID).style.display= "none";
+	document.getElementById(divID).style.transform= "scale(.9,.9)";
 }

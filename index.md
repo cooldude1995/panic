@@ -2,16 +2,17 @@
 layout: default
 title: PANIC
 ---
-<nav class"fitwidth" role="navigation">
-<ul>
-<li><div id="pop1" class="popover" align="center">
-	Your pop-over content will go in here!!!</div><img src="/panic/data/img/icon-coda.png" class="img-responsive img_s" alt="panic" onmouseover="showPopOver('pop1')" onmouseout="closePopOver('pop1')"></li>
-<li><img src="/panic/data/img/icon-dietcoda.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-prompt2.png" class="img-responsive img_s" alt="panic"></li>
+<div class="row">
+<img class="img-responsive" src="/panic/data/img/logo.png" style="display: block;
+    margin-left: auto;
+    margin-right: auto ">
+</div>
 <br>
-<li><img src="/panic/data/img/icon-statusboard.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-transmit.png" class="img-responsive img_s" alt="panic"></li>
-<li><img src="/panic/data/img/icon-transmit-ios.png" class="img-responsive img_s" alt="panic"></li> 
-</ul>
-</nav>
+<div class="row"><h2 class="lead" style="text-align: center;color: #544087;font: 48px/48px Chrono Light;letter-spacing: -1px;">
+your <em>title</em> will go here</h2></div>
+<br>
+<br><br>
+<div class="row">
+{%include navbar.html%}
+</div>
 

@@ -1,5 +1,12 @@
+@font-face
+{
+	font-family: 'Chrono Light';
+	src:
+		url('/panic/data/fonts/ChronoWebLight.eot') format('embedded-opentype'), 
+		url('/panic/data/fonts/ChronoWebLight.woff') format('woff');
+}
 body{
-background:#888888;
+background:#ebebeb;
 }
 div {
 display: block;
@@ -44,19 +51,28 @@ list-style-type: disc;
     transform: scale(1.1,1.1) rotate(360deg);
 }
 .popover {
-display: none;
+display:block;
 position: absolute;
 width: 250px;
-top: -90px;
+top: -10px;
 background: white;
 border-radius: 10px;
-padding: 20px;
+padding: 40px;
 color: #444;
-/* visibility: hidden; */
 opacity: 0;
+z-index: 2;
 -webkit-transition: all .5s ease-in-out;
 -moz-transition: all .5s ease-in-out;
 -o-transition: all .5s ease-in-out;
 -ms-transition: all .5s ease-in-out;
 transition: all .5s ease-in-out;
+left: -20px;
+}
+.popover:hover{
+opacity:1;
+top:-40px;
+}
+em {
+font-style: normal;
+color: #fc4349;
 }
